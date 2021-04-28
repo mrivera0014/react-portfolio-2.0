@@ -1,15 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
         <>
             <nav className='navbar'>
                 <ul>
-                    <a href='/'>Maribel Rivera</a>
-                    <a href='/'>About Me</a>
-                    <a href='/projects'>Projects</a>
-                    <a href={'/contact'}>Contact Me</a>
+                    <a href={`#about`}>Maribel Rivera</a>
+                    <a href={`#about`}>About Me</a>
+                    <a href={`#projects`}>Projects</a>
+                    <a href={`#contact`}>Contact Me</a>
                 </ul>
             </nav>
         </>
