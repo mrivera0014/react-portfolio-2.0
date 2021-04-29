@@ -5,7 +5,7 @@ function Nav() {
         <>
             <nav className='navbar'>
                 <ul>
-                    <a href={`#about`}>Maribel Rivera</a>
+                    <a href={`#home`}>Maribel Rivera</a>
                     <a href={`#about`}>About Me</a>
                     <a href={`#projects`}>Projects</a>
                     <a href={`#contact`}>Contact Me</a>
