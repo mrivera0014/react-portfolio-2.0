@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACb,KAAK,EAAE,KAAK;CACX",
+    "sources": [
+        "ProfileCard.scss"
+    ],
+    "names": [],
+    "file": "ProfileCard.css"
+}

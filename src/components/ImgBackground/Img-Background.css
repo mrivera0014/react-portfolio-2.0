@@ -1,4 +1,4 @@
-img {
+.imgBackground {
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
