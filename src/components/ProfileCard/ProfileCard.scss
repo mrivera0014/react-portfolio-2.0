@@ -1,3 +1,73 @@
-.profileCard {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap');
+
+@mixin mainBackground{ 
+    background: linear-gradient(90deg, pink, white, lightblue);
+    height: 100vh;}
+
+@mixin title {
+    font-family: 'Noto Sansa KR', sans-serif;
+    color: steelblue;
+}
+
+@mixin secondaryFont {
+    font-family: 'Noto Sansa KR', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: steelblue;
+}
+
+.body{
+   @include mainBackground;
+}
+
+.aboutTitle{
+    text-align: center;
+    margin: -4px;
+    @include title()
+}
+
+.aboutMe{
+text-align: -webkit-center;
+margin-top: 10rem;
+
+.profileImg {
 width: 17rem;
+float: right;
+margin-right: 25rem;
+
+}
+.aboutMePar{
+    width: 30%;
+    margin-right: 20rem;
+    @include secondaryFont()
+}
+}
+
+.social{
+    text-align: center;
+    margin-top: 10rem;
+
+.iconsList{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px;
+
+}
+
+.ghIcon, .liIcon{
+    font-size: 30px;
+    :hover{
+        color: white;
+        background: black;
+    }
+}
+
+.ghIcon{
+    color: black;
+}
+
+.liIcon{
+    color: #0e76a8;
+}
 }

@@ -1,4 +1,63 @@
-.profileCard {
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
+.body {
+  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
+  background: linear-gradient(90deg, pink, white, lightblue);
+  height: 100vh;
+}
+
+.aboutTitle {
+  text-align: center;
+  margin: -4px;
+  font-family: 'Noto Sansa KR', sans-serif;
+  color: steelblue;
+}
+
+.aboutMe {
+  text-align: -webkit-center;
+  margin-top: 10rem;
+}
+
+.aboutMe .profileImg {
   width: 17rem;
+  float: right;
+  margin-right: 25rem;
+}
+
+.aboutMe .aboutMePar {
+  width: 30%;
+  margin-right: 20rem;
+  font-family: 'Noto Sansa KR', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: steelblue;
+}
+
+.social {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.social .iconsList {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 15px;
+}
+
+.social .ghIcon, .social .liIcon {
+  font-size: 30px;
+}
+
+.social .ghIcon :hover, .social .liIcon :hover {
+  color: white;
+  background: black;
+}
+
+.social .ghIcon {
+  color: black;
+}
+
+.social .liIcon {
+  color: #0e76a8;
 }
 /*# sourceMappingURL=ProfileCard.css.map */
