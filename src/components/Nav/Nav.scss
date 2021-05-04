@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap');
+@import '../ProfileCard/ProfileCard.scss';
+
+.navbar{
+    background: pink;
+    // overflow: hidden;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.navItems{
+    margin: 0;
+    // display: block;
+    padding: 16px;
+
+    .navItem{
+    text-decoration: none;
+    padding: 14px;
+    @include secondaryFont
+    }
+    
+}

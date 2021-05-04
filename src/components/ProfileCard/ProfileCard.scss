@@ -57,14 +57,15 @@ margin-right: 25rem;
 
 .ghIcon, .liIcon{
     font-size: 30px;
-    :hover{
-        color: white;
-        background: black;
-    }
+    
 }
 
 .ghIcon{
     color: black;
+    background-color: white;
+    :hover{
+        transform: scale(1.2);
+    }
 }
 
 .liIcon{
