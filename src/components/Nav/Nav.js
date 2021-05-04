@@ -1,14 +1,15 @@
 import React from 'react'
+import './Nav.css'
 
 function Nav() {
     return (
         <>
             <nav className='navbar'>
-                <ul>
-                    <a href={`#home`}>Maribel Rivera</a>
-                    <a href={`#about`}>About Me</a>
-                    <a href={`#projects`}>Projects</a>
-                    <a href={`#contact`}>Contact Me</a>
+                <ul className='navItems'>
+                    <a className='navItem' href={`#home`}>Maribel Rivera</a>
+                    <a className='navItem' href={`#about`}>About Me</a>
+                    <a className='navItem' href={`#projects`}>Projects</a>
+                    <a className='navItem' href={`#contact`}>Contact Me</a>
                 </ul>
             </nav>
         </>
