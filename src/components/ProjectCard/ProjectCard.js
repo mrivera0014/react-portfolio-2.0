@@ -1,7 +1,6 @@
-import React, { Component, useState } from 'react'
-import data from './ProjectList.json'
+import React, { useState } from 'react'
+import project from './ProjectList'
 import './ProjectCard.css'
-// import ProjectImg from '../../assets/Images/Eat-The-Burger.PNG'
 import * as FaIcons from 'react-icons/fa'
 import * as FiIcons from 'react-icons/fi'
 
@@ -12,22 +11,20 @@ function ProjectCard() {
         <div className='body'>
             <h1 className='projectsTitle'>Projects</h1>
             <section className='projectSection'>
-                {data.map(project => {
+                {project.map(project => {
                     return (
-                        <div>
+                        <div key={project.id}>
                             <h3 className='projectTitle'>{project.title}</h3>
-                            <img className='projectImg' src={project.image} />
-                            <p className='projectDesc'><FiIcons.FiMoreVertical onClick={showDesc} />Description of project will go here</p>
-                            <a className='projectLinks'><FaIcons.FaGithub /> Repository</a>
-                            <a className='projectLinks'><FaIcons.FaRocket /> Deployed Application</a>
+                            <img className='projectImg' src={process.env.PUBLIC_URL + project.image} alt={project.imageAlt} />
+                            <p className='projectDesc'><FiIcons.FiMoreVertical onClick={showDesc} />Description: {project.description}</p>
+                            <a className='projectLinks' href={project.github} ><FaIcons.FaGithub /> Repository</a>
+                            <a className='projectLinks' href={project.deployed}><FaIcons.FaRocket /> Deployed Application</a>
                         </div>
                     )
                 })}
-
             </section>
-        </div>
+        </div >
     )
 }
 
 export default ProjectCard
-// onClick = { showDesc }
