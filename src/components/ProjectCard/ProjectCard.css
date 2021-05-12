@@ -101,6 +101,8 @@
 }
 
 .projectImg {
-  width: inherit;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 /*# sourceMappingURL=ProjectCard.css.map */
