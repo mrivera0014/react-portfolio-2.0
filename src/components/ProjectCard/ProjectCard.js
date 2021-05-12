@@ -13,7 +13,7 @@ function ProjectCard() {
             <section className='projectSection'>
                 {project.map(project => {
                     return (
-                        <div key={project.id}>
+                        <div key={project.id} className='column'>
                             <h3 className='projectTitle'>{project.title}</h3>
                             <img className='projectImg' src={process.env.PUBLIC_URL + project.image} alt={project.imageAlt} />
                             <p className='projectDesc'><FiIcons.FiMoreVertical onClick={showDesc} />Description: {project.description}</p>
