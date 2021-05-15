@@ -2,7 +2,9 @@
 .body {
   background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
   background: linear-gradient(90deg, pink, white, lightblue);
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .aboutTitle {
@@ -62,12 +64,6 @@
   color: #0e76a8;
 }
 
-.body {
-  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
-  background: linear-gradient(90deg, pink, white, lightblue);
-  height: 100vh;
-}
-
 .projectsTitle {
   font-family: 'Noto Sansa KR', sans-serif;
   color: steelblue;
@@ -76,48 +72,40 @@
 }
 
 .projectSection {
-  /* width: 28rem;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
+  background: linear-gradient(90deg, pink, white, lightblue);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: solid white 3px;
-  display: inline-block;
-  margin-left: 20%; */
-  margin: 0 -5px;
 }
 
 .column {
-  float: left;
   width: 30%;
-  padding: 0 10px;
+  margin: 0 auto;
+  margin-left: 3rem;
+  height: 23rem;
+  float: left;
 }
 
-.projectSection .projectTitle {
+.column .projectTitle {
   background: white;
-  /* width: inherit; */
-  margin: 0;
-  padding: 0 auto;
   text-align: center;
+  margin: 0;
 }
 
-.projectSection .projectLinks,
-.projectSection .projectDesc {
-  display: block;
-  margin: 0;
+.column .projectDesc {
+  margin-top: -4px;
+  background: white;
+  margin-bottom: -2px;
+}
+
+.column .projectLinks {
   background: white;
 }
 
 .projectImg {
   width: 100%;
-  height: 15vw;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 600px) {
- .column{
-    width: 100%;
-    display: block;
-    margin-top: 20px;
- } 
+  max-height: 15rem;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

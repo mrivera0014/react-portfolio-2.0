@@ -2,7 +2,7 @@
 
 @mixin mainBackground{ 
     background: linear-gradient(90deg, pink, white, lightblue);
-    height: 100vh;}
+    height: fit-content;}
 
 @mixin title {
     font-family: 'Noto Sansa KR', sans-serif;
