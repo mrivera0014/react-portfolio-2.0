@@ -68,4 +68,17 @@
   font-family: 'Noto Sansa KR', sans-serif;
   color: steelblue;
 }
+
+.contactForm {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 1px;
+  background-color: brown;
+}
+
+.userInput {
+  width: 35%;
+}
 /*# sourceMappingURL=Contact.css.map */
