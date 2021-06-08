@@ -8,7 +8,7 @@ function ProjectCard() {
     const [projectDesc, setProjectDesc] = useState(false)
     const showDesc = () => setProjectDesc(!projectDesc)
     return (
-        <div className='body'>
+        <div className='body' id='projects'>
             <h1 className='projectsTitle'>Projects</h1>
             <section className='projectSection'>
                 {project.map(project => {
