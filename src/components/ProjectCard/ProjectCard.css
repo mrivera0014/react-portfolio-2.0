@@ -18,20 +18,6 @@
   margin-top: 10rem;
 }
 
-.aboutMe .profileImg {
-  width: 17rem;
-  float: right;
-  margin-right: 25rem;
-}
-
-.aboutMe .aboutMePar {
-  width: 30%;
-  margin-right: 20rem;
-  font-family: 'Noto Sansa KR', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: steelblue;
-}
 
 .social {
   text-align: center;
@@ -85,8 +71,6 @@
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.2);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
 }
 
 .projectSection .projectCard .projectTitle {
