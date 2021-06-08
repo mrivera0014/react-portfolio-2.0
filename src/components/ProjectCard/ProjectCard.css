@@ -2,12 +2,13 @@
 .body {
   background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
   background: linear-gradient(90deg, pink, white, lightblue);
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .aboutTitle {
   text-align: center;
-  margin: -4px;
   font-family: 'Noto Sansa KR', sans-serif;
   color: steelblue;
 }
@@ -62,62 +63,27 @@
   color: #0e76a8;
 }
 
-.body {
-  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
-  background: linear-gradient(90deg, pink, white, lightblue);
-  height: 100vh;
-}
-
 .projectsTitle {
+  text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
   color: steelblue;
-  text-align: center;
-  margin-top: -4px;
 }
 
 .projectSection {
-  /* width: 28rem;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  border: solid white 3px;
-  display: inline-block;
-  margin-left: 20%; */
-  margin: 0 -5px;
-}
-
-.column {
-  float: left;
-  width: 30%;
-  padding: 0 10px;
-}
-
-.projectSection .projectTitle {
-  background: white;
-  /* width: inherit; */
-  margin: 0;
-  padding: 0 auto;
-  text-align: center;
-}
-
-.projectSection .projectLinks,
-.projectSection .projectDesc {
-  display: block;
-  margin: 0;
-  background: white;
-}
-
-.projectImg {
   width: 100%;
-  height: 15vw;
-  object-fit: cover;
+  display: flow-root;
 }
 
-@media screen and (max-width: 600px) {
- .column{
-    width: 100%;
-    display: block;
-    margin-top: 20px;
- } 
+.projectSection .projectCard {
+  width: 30%;
+  margin: 0 auto;
+  float: left;
+  margin-left: 13%;
+  height: 23rem;
+}
+
+.projectSection .projectImg {
+  width: 100%;
+  max-height: 15rem;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

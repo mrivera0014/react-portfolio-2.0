@@ -1,37 +1,30 @@
 @import '../ProfileCard/ProfileCard.scss';
 
-.body{
-    @include mainBackground;
-}
+// .body{
+//     @include mainBackground
+// }
 
 .projectsTitle{
-    @include title();
     text-align: center;
-    margin-top: -4px;
+    @include title;
 }
+
+
 
 .projectSection{
-    width: 28rem;
-    height: fit-content;
-    border: solid white 3px;
-    display: inline-block;
-    margin-left: 20%;
-
-    .projectTitle{
-        background: white;
-        width: inherit;
-        margin: 0;
-        padding: 0 auto;
-        text-align: center;
-    }
-    .projectLinks, 
-    .projectDesc{
-        display: block;
-        margin: 0;
-        background: white;
-    }
+    width: 100%;
+    display: flow-root;
+    
+    .projectCard{
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    margin-left: 13%;
+    height: 23rem;
 }
 
-.projectImg{
-    width: inherit;
+    .projectImg{
+    width: 100%;
+    max-height: 15rem;
+}
 }
