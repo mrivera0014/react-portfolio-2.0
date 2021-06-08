@@ -4,7 +4,7 @@ import ProjectsCard from '../../components/ProjectCard/ProjectCard'
 
 function Projects() {
     return (
-        <div id='projects'>
+        <div>
             <ProjectsCard />
         </div >
     )
