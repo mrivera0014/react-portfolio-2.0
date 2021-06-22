@@ -41,16 +41,21 @@ width: 17rem;
 float: right;
 margin-right: 15%;
 margin-top: 2%;
-padding: 1%;
-@include glassEffect()
+padding: 5px;
+box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+border-radius: 5px;
+background-color: white;
 }
 
 .aboutMePar{
     width: 45%;
     margin-right: 40%;
     padding: 1%;
+    text-align: left;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    background-color: white;
     @include secondaryFont();
-    @include glassEffect()
 }
 
 .social{
