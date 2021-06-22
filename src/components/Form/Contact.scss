@@ -9,12 +9,18 @@
 .contactForm{
     text-align: center;
     width: 40%;
+    height: 19rem;
     margin: 0 auto;
     margin-bottom: 2rem;
     padding: 1px;
-    background-color: brown;
+    // background-color: brown;
+    @include glassEffect()
 }
 
 .userInput{
     width: 35%;
+}
+
+.messageSection{
+    margin-bottom: .5rem;
 }
