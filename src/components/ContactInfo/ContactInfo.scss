@@ -1,0 +1,13 @@
+@import '../ProfileCard/ProfileCard.scss';
+
+.contactBtns {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    float: left;
+
+}
+
+.contactBtnHome {
+@include glassEffect
+}
