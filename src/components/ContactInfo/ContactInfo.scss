@@ -9,5 +9,8 @@
 }
 
 .contactBtnHome {
-@include glassEffect
+@include glassEffect();
+height: 150px;
+display: flex;
+justify-content: center;
 }
