@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 .body {
-  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
-  background: linear-gradient(90deg, pink, white, lightblue);
+  background-color: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -11,7 +10,7 @@
 .aboutTitle {
   text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
-  color: steelblue;
+  color: #ef9273;
 }
 
 .aboutMe {
@@ -77,7 +76,8 @@
 }
 
 .navbar {
-  background: pink;
+  background: white;
+  overflow: hidden;
   text-align: center;
   position: fixed;
   width: 100%;

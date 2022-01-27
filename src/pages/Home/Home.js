@@ -1,14 +1,14 @@
 import React from 'react'
-import ImgBackground from '../../components/ImgBackground/Img-Background'
-import Intro from '../../components/Intro/Intro'
+// import ImgBackground from '../../components/ImgBackground/Img-Background'
+// import Intro from '../../components/Intro/Intro'
+import HomeBG from '../../components/HomeBG/HomeBG'
 
-function Home() {
+function homePage() {
     return (
         <div id='home'>
-            <Intro />
-            <ImgBackground />
+            <homePage />
         </div>
     )
 }
 
-export default Home
+export default HomeBG

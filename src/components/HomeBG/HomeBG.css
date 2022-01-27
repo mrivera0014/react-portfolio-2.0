@@ -1,0 +1,6 @@
+.homeBG {
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#ef9273), to(white));
+  background: linear-gradient(90deg, #ef9273, white);
+}
+/*# sourceMappingURL=HomeBG.css.map */
