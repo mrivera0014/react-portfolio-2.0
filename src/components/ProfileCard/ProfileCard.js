@@ -21,7 +21,7 @@ function ProfileCard() {
                 </p>
             </figure>
             <section className='social'>
-                <a className='iconsList' rel="noreferrer" target="_blank" href="https://github.com/mrivera0014"><FaIcons.FaGithub className='ghIcon' /></a>
+                <a className='iconsList' rel="noreferrer" target="_blank" href="https://github.com/mrivera0014"><FaIcons.FaGithub className='ghIcon' /> Github</a>
                 <a className='iconsList' rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/marblerivera/"><FaIcons.FaLinkedin className='liIcon' /></a>
                 <a className='iconsList' rel='noreferrer' target='_blank' href='https://drive.google.com/file/d/1I6XwAcUdvy6ffTu0i8RX97pFKnF0LRME/view?usp=sharing'><button>Resume</button></a>
 

@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
+.body {
+  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
+  background: linear-gradient(90deg, pink, white, lightblue);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.aboutTitle {
+  text-align: center;
+  font-family: 'Noto Sansa KR', sans-serif;
+  color: steelblue;
+}
+
+.aboutMe {
+  text-align: -webkit-center;
+  margin-top: 10rem;
+}
+
+.profileImg {
+  width: 17rem;
+  float: right;
+  margin-right: 15%;
+  margin-top: 2%;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.aboutMePar {
+  width: 45%;
+  margin-right: 40%;
+  padding: 1%;
+  text-align: left;
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  font-family: 'Noto Sansa KR', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: steelblue;
+}
+
+.social {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.social .iconsList {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 15px;
+}
+
+.social .ghIcon, .social .liIcon {
+  font-size: 30px;
+}
+
+.social .ghIcon {
+  color: black;
+  background-color: white;
+}
+
+.social .ghIcon :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .liIcon {
+  color: #0e76a8;
+}
+
+.contactBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  float: left;
+}
+
+.contactBtnHome {
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 72%;
+  margin: auto;
+}
+
+.linkedBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  border: solid 2px;
+  background: transparent;
+  width: 6rem;
+  height: 2rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 1rem;
+  font-size: 15px;
+  border-color: #0e76a8;
+  color: #0e76a8;
+  font-weight: 700;
+}
+
+.linkedBtn:hover {
+  background-color: #0e76a8;
+  color: white;
+}
+
+.liIcon,
+.ghIcon,
+.pdfIcon {
+  font-size: 17px;
+  margin-right: 1px;
+}
+
+.gitBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  border: solid 2px;
+  background: transparent;
+  width: 6rem;
+  height: 2rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 1rem;
+  font-size: 15px;
+  border-color: black;
+  color: black;
+  font-weight: 700;
+}
+
+.gitBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.resumeBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: left;
+  border: solid 2px;
+  background: transparent;
+  width: 6rem;
+  height: 2rem;
+  border-radius: .25rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 1rem;
+  font-size: 15px;
+  border-color: #1FA463;
+  color: #1FA463;
+  font-weight: 700;
+}
+
+.resumeBtn:hover {
+  background-color: #1FA463;
+  color: white;
+}
+/*# sourceMappingURL=ContactInfo.css.map */
