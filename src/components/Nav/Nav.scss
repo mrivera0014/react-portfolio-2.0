@@ -2,13 +2,13 @@
 @import '../ProfileCard/ProfileCard.scss';
 
 .navbar{
-    background: pink;
-    // overflow: hidden;
+    background: white;
+    overflow: hidden;
     text-align: center;
     position: fixed;
     width: 100%;
     z-index: 1;
-    
+    top: 0;
 }
 
 .navItems{
@@ -16,10 +16,16 @@
     // display: block;
     padding: 16px;
 
+
+}
+
     .navItem{
     text-decoration: none;
     padding: 14px;
     @include secondaryFont
     }
     
-}
+    .navItem:hover{
+background-color: #ef9273;
+color: white;
+    }

@@ -6,7 +6,7 @@ function Nav() {
         <>
             <nav className='navbar'>
                 <ul className='navItems'>
-                    <a className='navItem' href={`#home`}>Maribel Rivera</a>
+                    <a className='navItem' href={`#home`}>Home</a>
                     <a className='navItem' href={`#about`}>About Me</a>
                     <a className='navItem' href={`#projects`}>Projects</a>
                     <a className='navItem' href={`#contact`}>Contact Me</a>

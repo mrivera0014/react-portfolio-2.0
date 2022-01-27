@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 .body {
-  background: -webkit-gradient(linear, left top, right top, from(pink), color-stop(white), to(lightblue));
-  background: linear-gradient(90deg, pink, white, lightblue);
+  background-color: white;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -11,7 +10,7 @@
 .aboutTitle {
   text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
-  color: steelblue;
+  color: #ef9273;
 }
 
 .aboutMe {
@@ -43,7 +42,7 @@
   font-family: 'Noto Sansa KR', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: steelblue;
+  color: #ef9273;
 }
 
 .social {
@@ -77,11 +76,13 @@
 }
 
 .navbar {
-  background: pink;
+  background: white;
+  overflow: hidden;
   text-align: center;
   position: fixed;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 .navItems {
@@ -89,12 +90,17 @@
   padding: 16px;
 }
 
-.navItems .navItem {
+.navItem {
   text-decoration: none;
   padding: 14px;
   font-family: 'Noto Sansa KR', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: steelblue;
+  color: #ef9273;
+}
+
+.navItem:hover {
+  background-color: #ef9273;
+  color: white;
 }
 /*# sourceMappingURL=Nav.css.map */

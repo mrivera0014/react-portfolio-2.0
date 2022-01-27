@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap');
 
 @mixin mainBackground{ 
-    background: linear-gradient(90deg, pink, white, lightblue);
+    background-color: white;
     height: fit-content;}
 
 @mixin title {
     font-family: 'Noto Sansa KR', sans-serif;
-    color: steelblue;
+    color: #ef9273;
 }
 
 @mixin secondaryFont {
     font-family: 'Noto Sansa KR', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: steelblue;
+    color: #ef9273;
 }
 
 @mixin glassEffect {
