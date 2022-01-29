@@ -6,7 +6,7 @@ function homePage() {
         <div>
             <div className='homeBG'>
                 <h3 className='intro'>Hi, I am</h3>
-                <h1 className='myName'>Maribel Rivera</h1>
+                <h1 className='myName'>Marble Rivera</h1>
             </div>
         </div>
 
