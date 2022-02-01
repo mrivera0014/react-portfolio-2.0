@@ -2,7 +2,7 @@ import React from 'react'
 import * as FaIcons from 'react-icons/fa'
 // import * as DiIcons from 'react-icons/fa'
 
-import headshot from '../../assets/Images/headshot.jpg'
+import AboutMePic from '../../assets/Images/AboutMePic.jpg'
 import './ProfileCard.css'
 
 function ProfileCard() {
@@ -10,7 +10,7 @@ function ProfileCard() {
         <div className='body'>
             <h1 className='aboutTitle'>About Me</h1>
             <figure className='aboutMe'>
-                <img className='profileImg' src={headshot} alt='maribel-rivera-headshot'></img>
+                <img className='profileImg' src={AboutMePic} alt='maribel-rivera-headshot'></img>
                 <p className='aboutMePar'>
                     <p>
                         Hello, my name is Maribel Rivera although I do prefer to go by Marble!
