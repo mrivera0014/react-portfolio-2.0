@@ -4,7 +4,7 @@ import './Img-Background.css'
 function ImgBackground() {
     return (
         <div>
-            <img className='imgBackground' src='https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHBpbmslMjBhbmQlMjBibHVlfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60' alt='cotton-candy-sky'></img>
+            <img className='imgBackground' src='https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80' alt='cotton-candy-sky'></img>
         </div>
     )
 }

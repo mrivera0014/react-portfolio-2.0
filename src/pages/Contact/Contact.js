@@ -4,7 +4,7 @@ import ContactInfo from '../../components/ContactInfo/ContactInfo'
 
 function Contact() {
     return (
-        <div>
+        <div id='contact'>
             <ContactInfo />
         </div>
     )

@@ -1,4 +1,19 @@
-.homeBG{
+@import '../ProfileCard/ProfileCard.scss';
+
+.home{
     height: 100vh;
-    background: linear-gradient(90deg, #ef9273,white) ;
+    background-color: #5e5b5b;
+    object-fit: cover;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+
+    .intro{
+    color: #ef9273;
+        position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
 }
+}
+

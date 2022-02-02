@@ -3,9 +3,9 @@ import './Intro.css'
 
 function Intro() {
     return (
-        <>
-            <h1 className='intro'>Hello! I am Maribel Rivera aka Marble</h1>
-        </>
+        <div>
+            <h1 className='intro'>Hello!</h1>
+        </div>
     )
 }
 

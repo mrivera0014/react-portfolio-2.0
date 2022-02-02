@@ -1,16 +1,16 @@
 import React from 'react'
 import './HomeBG.scss'
 
-function homePage() {
+function HomePage() {
     return (
         <div>
-            <div className='homeBG'>
-                <h3 className='intro'>Hi, I am</h3>
-                <h1 className='myName'>Marble Rivera</h1>
-            </div>
+            <header className='home'>
+                {/* <h3 className='intro'>Hello, I am</h3> */}
+                <h1 className='intro'>Maribel Rivera</h1>
+            </header>
         </div>
 
     )
 }
 
-export default homePage
+export default HomePage
