@@ -17,10 +17,7 @@ function ContactInfo() {
                 <form className="contactBtns" action="https://drive.google.com/file/d/14prWGh1MwMsED8Jh8WG93YCji29t9167/view?usp=sharing" method="get" target="_blank">
                     <button className="resumeBtn" type="submit"> <FaIcons.FaRegFilePdf className='pdfIcon' />Resume</button>
                 </form>
-
             </section>
-
-
         </div >
 
 
