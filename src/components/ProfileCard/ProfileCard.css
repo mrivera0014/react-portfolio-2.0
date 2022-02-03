@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 .body {
-  background-color: white;
+  background: #ef9273;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -9,33 +9,38 @@
 .aboutTitle {
   text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
-  color: #ef9273;
+  color: #fef9f8;
 }
 
 .aboutMe {
-  text-align: -webkit-center;
-  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: #fef9f8;
+  width: 90%;
+}
+
+.profile {
+  float: left;
 }
 
 .profileImg {
   width: 17rem;
-  float: right;
-  margin-right: 15%;
-  margin-top: 2%;
-  padding: 5px;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: white;
 }
 
 .aboutMePar {
-  width: 45%;
-  margin-right: 40%;
-  padding: 1%;
+  width: 30%;
+  margin: 1rem;
   text-align: left;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: white;
   font-family: 'Noto Sansa KR', sans-serif;
