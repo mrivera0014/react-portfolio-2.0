@@ -7,6 +7,7 @@
 @mixin title {
     font-family: 'Noto Sansa KR', sans-serif;
     color: #fef9f8;
+    margin: 0;
 }
 
 @mixin secondaryFont {
@@ -38,6 +39,7 @@ justify-content: center;
 height: 100vh;
 background: #fef9f8;
 width: 90%;
+margin: auto;
 }
 
 .profile{

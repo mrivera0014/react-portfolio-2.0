@@ -10,6 +10,7 @@
   text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
   color: #fef9f8;
+  margin: 0;
 }
 
 .aboutMe {
@@ -25,6 +26,7 @@
   height: 100vh;
   background: #fef9f8;
   width: 90%;
+  margin: auto;
 }
 
 .profile {
@@ -83,12 +85,12 @@
   text-align: center;
   font-family: 'Noto Sansa KR', sans-serif;
   color: #fef9f8;
+  margin: 0;
 }
 
 .projectSection {
   width: 100%;
   display: flow-root;
-  margin-bottom: 10%;
 }
 
 .projectSection .projectCard {
