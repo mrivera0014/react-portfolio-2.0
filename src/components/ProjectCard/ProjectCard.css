@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 .body {
-  background: #ef9273;
+  background: #2B4570;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -42,13 +42,15 @@
 .aboutMePar {
   width: 30%;
   margin: 1rem;
+  margin-right: 10%;
   text-align: left;
   border-radius: 5px;
-  background-color: white;
+  background-color: #2B4570;
+  color: #fef9f8;
   font-family: 'Noto Sansa KR', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #ef9273;
+  color: #2B4570;
 }
 
 .social {

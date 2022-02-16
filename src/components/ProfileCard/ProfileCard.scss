@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap');
 
 @mixin mainBackground{ 
-    background: #ef9273;
+    background: #2B4570;
     height: fit-content;}
 
 @mixin title {
@@ -14,7 +14,7 @@
     font-family: 'Noto Sansa KR', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #ef9273;
+    color: #2B4570;
 }
 
 @mixin glassEffect {
@@ -55,9 +55,12 @@ background-color: white;
 .aboutMePar{
     width: 30%;
     margin: 1rem;
+    margin-right: 10%;
     text-align: left;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fef9f8;
+    border:#2B4570 double 6px;
+    padding: 6px;
     @include secondaryFont();
 }
 

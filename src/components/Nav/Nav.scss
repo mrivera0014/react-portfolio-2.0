@@ -2,19 +2,19 @@
 @import '../ProfileCard/ProfileCard.scss';
 
 .navbar{
-    background: white;
+    background: #F7FFF7;
     overflow: hidden;
     text-align: center;
     position: fixed;
     width: 100%;
     z-index: 1;
     top: 0;
+    
 }
 
 .navItems{
     margin: 0;
     padding: 16px;
-
 }
 
     .navItem{
@@ -24,6 +24,8 @@
     }
     
     .navItem:hover{
-background-color: #ef9273;
-color: white;
-    }
+background-color: #9590A8;
+color: #2B4570;
+
+}
+    
