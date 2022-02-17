@@ -28,6 +28,7 @@
   background: #fef9f8;
   width: 90%;
   margin: auto;
+  background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px);
 }
 
 .profile {
@@ -38,6 +39,8 @@
   width: 17rem;
   border-radius: 5px;
   background-color: white;
+  -webkit-box-shadow: 5px 10px #2B4570;
+          box-shadow: 5px 10px #2B4570;
 }
 
 .aboutMePar {
@@ -47,7 +50,8 @@
   text-align: left;
   border-radius: 5px;
   background-color: #fef9f8;
-  border: #2B4570 double;
+  border: #2B4570 double 6px;
+  padding: 6px;
   font-family: 'Noto Sansa KR', sans-serif;
   font-size: 18px;
   font-weight: 700;
