@@ -42,12 +42,9 @@
 .aboutMePar {
   width: 30%;
   margin: 1rem;
-  margin-right: 10%;
   text-align: left;
   border-radius: 5px;
-  background-color: #fef9f8;
-  border: #2B4570 double 6px;
-  padding: 6px;
+  background-color: white;
   font-family: 'Noto Sansa KR', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -105,12 +102,13 @@
   -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #fef9f8;
 }
 
 .projectSection .projectCard .projectTitle {
   text-align: center;
   margin: 0;
+  color: #2B4570;
 }
 
 .projectSection .projectCard .projectImg {
@@ -122,5 +120,9 @@
   margin-top: -4px;
   margin-bottom: -2px;
   min-height: 21%;
+  font-family: 'Noto Sansa KR', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2B4570;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

@@ -20,7 +20,7 @@
 @mixin glassEffect {
     box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, .2);
+    background-color: #fef9f8;
 }
 
 .body{
@@ -40,7 +40,6 @@ height: 100vh;
 background: #fef9f8;
 width: 90%;
 margin: auto;
-background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px );
 }
 
 .profile{
@@ -51,18 +50,14 @@ float: left;
 width: 17rem;
 border-radius: 5px;
 background-color: white;
-box-shadow: 5px 10px #2B4570;
 }
 
 .aboutMePar{
     width: 30%;
     margin: 1rem;
-    margin-right: 10%;
     text-align: left;
     border-radius: 5px;
-    background-color: #fef9f8;
-    border:#2B4570 double 6px;
-    padding: 6px;
+    background-color: white;
     @include secondaryFont();
 }
 
@@ -94,4 +89,5 @@ box-shadow: 5px 10px #2B4570;
 .liIcon{
     color: #0e76a8;
 }
+
 }
