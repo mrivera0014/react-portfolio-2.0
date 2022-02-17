@@ -40,6 +40,7 @@ height: 100vh;
 background: #fef9f8;
 width: 90%;
 margin: auto;
+background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px );
 }
 
 .profile{
@@ -50,14 +51,18 @@ float: left;
 width: 17rem;
 border-radius: 5px;
 background-color: white;
+box-shadow: 5px 10px #2B4570;
 }
 
 .aboutMePar{
     width: 30%;
     margin: 1rem;
+    margin-right: 10%;
     text-align: left;
     border-radius: 5px;
-    background-color: white;
+    background-color: #fef9f8;
+    border:#2B4570 double 6px;
+    padding: 6px;
     @include secondaryFont();
 }
 
