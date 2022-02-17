@@ -1,4 +1,5 @@
 @import '../ProfileCard/ProfileCard.scss';
+@import '../ContactInfo/ContactInfo.scss';
 
 
 .projectsTitle{
@@ -35,6 +36,33 @@
         @include secondaryFont();
     }
 
+}
+
+.projectLinks{
+    @include contactBtns();
+    text-decoration: none;
+}
+
+.rep{
+border-color: black;
+color: black;
+font-weight: 700;
+}
+
+.rep:hover{
+background-color: black;
+color: white;
+}
+
+.app{
+border-color: #2B4570;
+color: #2B4570;
+font-weight: 700;
+}
+
+.app:hover{
+background-color: #2B4570;
+color: white;
 }
 
 }

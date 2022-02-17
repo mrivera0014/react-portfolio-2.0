@@ -17,8 +17,8 @@ function ProjectCard() {
                             <h3 className='projectTitle'>{project.title}</h3>
                             <img className='projectImg' src={process.env.PUBLIC_URL + project.image} alt={project.imageAlt} />
                             <p className='projectDesc'>Description: {project.description}</p>
-                            <a className='projectLinks' href={project.github} ><FaIcons.FaGithub /> Repository</a>
-                            <a className='projectLinks' href={project.deployed}><FaIcons.FaRocket /> Deployed Application</a>
+                            <a target='_blank' className='projectLinks rep' href={project.github} ><FaIcons.FaGithub /> Repository</a>
+                            <a target='_blank' className='projectLinks app' href={project.deployed}><FaIcons.FaRocket /> Application</a>
                         </div>
 
                         // <FiIcons.FiMoreVertical onClick={showDesc} /> this will go in line 19 intended to open/close description of each project
