@@ -3,6 +3,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
       /* background: linear-gradient(90deg, pink, white, lightblue) */
 }
 /*# sourceMappingURL=App.css.map */

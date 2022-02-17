@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
+.body {
+  background: #2B4570;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.aboutTitle {
+  text-align: center;
+  font-family: 'Noto Sansa KR', sans-serif;
+  color: #fef9f8;
+  margin: 0;
+}
+
+.aboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: #fef9f8;
+  width: 90%;
+  margin: auto;
+  background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px);
+}
+
+.profile {
+  float: left;
+}
+
+.profileImg {
+  width: 17rem;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: 5px 10px #2B4570;
+          box-shadow: 5px 10px #2B4570;
+}
+
+.aboutMePar {
+  width: 30%;
+  margin: 1rem;
+  margin-right: 10%;
+  text-align: left;
+  border-radius: 5px;
+  background-color: #fef9f8;
+  border: #2B4570 double 6px;
+  padding: 6px;
+  font-family: 'Noto Sansa KR', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2B4570;
+}
+
+.social {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.social .iconsList {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 15px;
+}
+
+.social .ghIcon, .social .liIcon {
+  font-size: 30px;
+}
+
+.social .ghIcon {
+  color: black;
+  background-color: white;
+}
+
+.social .ghIcon :hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.social .liIcon {
+  color: #0e76a8;
+}
+
+.footer {
+  clear: both;
+  overflow: auto;
+  bottom: 0;
+  height: 55px;
+  width: 100%;
+  text-align: center;
+  background-color: #9590A8;
+  padding-top: 15px;
+  font-family: 'Noto Sansa KR', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2B4570;
+}
+/*# sourceMappingURL=Footer.css.map */
