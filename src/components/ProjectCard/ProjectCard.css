@@ -1,300 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
-.body {
-  background: #2B4570;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
 
-.aboutTitle {
-  text-align: center;
-  font-family: 'Noto Sansa KR', sans-serif;
-  color: #fef9f8;
-  margin: 0;
-}
-
-.aboutMe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-  background: #fef9f8;
-  width: 90%;
-  margin: auto;
-}
-
-.profile {
-  float: left;
-}
-
-.profileImg {
-  width: 17rem;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.aboutMePar {
-  width: 30%;
-  margin: 1rem;
-  text-align: left;
-  border-radius: 5px;
-  background-color: white;
-  font-family: 'Noto Sansa KR', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #2B4570;
-}
-
-.social {
-  text-align: center;
-  margin-top: 10rem;
-}
-
-.social .iconsList {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  margin: 15px;
-}
-
-.social .ghIcon, .social .liIcon {
-  font-size: 30px;
-}
-
-.social .ghIcon {
-  color: black;
-  background-color: white;
-}
-
-.social .ghIcon :hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.social .liIcon {
-  color: #0e76a8;
-}
-
-.body {
-  background: #2B4570;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.aboutTitle {
-  text-align: center;
-  font-family: 'Noto Sansa KR', sans-serif;
-  color: #fef9f8;
-  margin: 0;
-}
-
-.aboutMe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-  background: #fef9f8;
-  width: 90%;
-  margin: auto;
-}
-
-.profile {
-  float: left;
-}
-
-.profileImg {
-  width: 17rem;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.aboutMePar {
-  width: 30%;
-  margin: 1rem;
-  text-align: left;
-  border-radius: 5px;
-  background-color: white;
-  font-family: 'Noto Sansa KR', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #2B4570;
-}
-
-.social {
-  text-align: center;
-  margin-top: 10rem;
-}
-
-.social .iconsList {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  margin: 15px;
-}
-
-.social .ghIcon, .social .liIcon {
-  font-size: 30px;
-}
-
-.social .ghIcon {
-  color: black;
-  background-color: white;
-}
-
-.social .ghIcon :hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.social .liIcon {
-  color: #0e76a8;
-}
-
-.contactBtns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-item-align: center;
-      align-self: center;
-  float: left;
-}
-
-.contactBtnHome {
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: #fef9f8;
-  height: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 72%;
-  margin: auto;
-}
-
-.linkedBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: .25rem;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: #0e76a8;
-  color: #0e76a8;
-  font-weight: 700;
-}
-
-.linkedBtn:hover {
-  background-color: #0e76a8;
-  color: white;
-}
-
-.liIcon,
-.ghIcon,
-.pdfIcon {
-  font-size: 17px;
-  margin-right: 1px;
-}
-
-.gitBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: .25rem;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: black;
-  color: black;
-  font-weight: 700;
-}
-
-.gitBtn:hover {
-  background-color: black;
-  color: white;
-}
-
-.resumeBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: .25rem;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: #1FA463;
-  color: #1FA463;
-  font-weight: 700;
-}
-
-.resumeBtn:hover {
-  background-color: #1FA463;
-  color: white;
-}
 
 .projectsTitle {
   text-align: center;
-  font-family: 'Noto Sansa KR', sans-serif;
+  font-family: "Noto Sansa KR", sans-serif;
   color: #fef9f8;
   margin: 0;
 }
@@ -310,8 +20,7 @@
   float: left;
   margin-left: 13%;
   height: 23rem;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: #fef9f8;
 }
@@ -331,30 +40,23 @@
   margin-top: -4px;
   margin-bottom: -2px;
   min-height: 21%;
-  font-family: 'Noto Sansa KR', sans-serif;
+  font-family: "Noto Sansa KR", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #2B4570;
 }
 
 .projectSection .projectLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   float: left;
   border: solid 2px;
   background: transparent;
   width: 6rem;
   height: 2rem;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   margin: 1rem;
   font-size: 15px;
@@ -382,4 +84,3 @@
   background-color: #2B4570;
   color: white;
 }
-/*# sourceMappingURL=ProjectCard.css.map */

@@ -1,88 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
-.body {
-  background: #2B4570;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.aboutTitle {
-  text-align: center;
-  font-family: 'Noto Sansa KR', sans-serif;
-  color: #fef9f8;
-  margin: 0;
-}
-
-.aboutMe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100vh;
-  background: #fef9f8;
-  width: 90%;
-  margin: auto;
-}
-
-.profile {
-  float: left;
-}
-
-.profileImg {
-  width: 17rem;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.aboutMePar {
-  width: 30%;
-  margin: 1rem;
-  text-align: left;
-  border-radius: 5px;
-  background-color: white;
-  font-family: 'Noto Sansa KR', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #2B4570;
-}
-
-.social {
-  text-align: center;
-  margin-top: 10rem;
-}
-
-.social .iconsList {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  margin: 15px;
-}
-
-.social .ghIcon, .social .liIcon {
-  font-size: 30px;
-}
-
-.social .ghIcon {
-  color: black;
-  background-color: white;
-}
-
-.social .ghIcon :hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.social .liIcon {
-  color: #0e76a8;
-}
-
 .contactTitle {
-  font-family: 'Noto Sansa KR', sans-serif;
+  font-family: "Noto Sansa KR", sans-serif;
   color: #fef9f8;
   margin: 0;
   text-align: center;
@@ -96,10 +13,9 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   padding: 1px;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #fef9f8;
 }
 
 .userInput {
@@ -107,6 +23,5 @@
 }
 
 .messageSection {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-/*# sourceMappingURL=Contact.css.map */
