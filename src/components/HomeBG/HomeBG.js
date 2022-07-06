@@ -1,5 +1,5 @@
 import React from 'react'
-import './HomeBG.scss'
+import './HomeBG.css'
 
 function HomePage() {
     return (

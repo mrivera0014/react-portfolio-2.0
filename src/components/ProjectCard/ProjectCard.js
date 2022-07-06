@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import project from './ProjectList'
 import './ProjectCard.css'
 import * as FaIcons from 'react-icons/fa'
-import * as FiIcons from 'react-icons/fi'
+// import * as FiIcons from 'react-icons/fi'
 
 function ProjectCard() {
     const [projectDesc, setProjectDesc] = useState(false)

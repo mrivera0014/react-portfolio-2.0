@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,sBAAsB;CAChC",
-    "sources": [
-        "Img-Background.scss"
-    ],
-    "names": [],
-    "file": "Img-Background.css"
-}
