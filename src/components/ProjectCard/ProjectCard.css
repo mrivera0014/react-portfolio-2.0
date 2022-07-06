@@ -1,273 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-.body {
-  background: #2B4570;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.aboutTitle {
-  text-align: center;
-  font-family: "Noto Sansa KR", sans-serif;
-  color: #fef9f8;
-  margin: 0;
-}
-
-.aboutMe {
-  align-items: center;
-  justify-content: center;
-  min-height: 90vh;
-  background: #fef9f8;
-  width: 90%;
-  margin: auto;
-  background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px);
-}
-
-.profile {
-  float: left;
-}
-
-.profileImg {
-  margin-top: 10rem;
-  margin-right: 20rem;
-  float: right;
-  max-width: 17rem;
-  max-height: 20rem;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 5px 10px #2B4570;
-}
-
-.aboutMePar {
-  max-height: 25rem;
-  max-width: 10rem;
-  min-width: 22rem;
-  margin-left: 5rem;
-  text-align: left;
-  border-radius: 5px;
-  background-color: #fef9f8;
-  border: #2B4570 double 6px;
-  padding: 6px;
-  font-family: "Noto Sansa KR", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #2B4570;
-}
-
-.social {
-  text-align: center;
-  margin-top: 10rem;
-}
-.social .iconsList {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  margin: 15px;
-}
-.social .ghIcon,
-.social .liIcon {
-  font-size: 30px;
-}
-.social .ghIcon {
-  color: black;
-  background-color: white;
-}
-.social .ghIcon :hover {
-  transform: scale(1.2);
-}
-.social .liIcon {
-  color: #0e76a8;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.body {
-  background: #2B4570;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.aboutTitle {
-  text-align: center;
-  font-family: "Noto Sansa KR", sans-serif;
-  color: #fef9f8;
-  margin: 0;
-}
-
-.aboutMe {
-  align-items: center;
-  justify-content: center;
-  min-height: 90vh;
-  background: #fef9f8;
-  width: 90%;
-  margin: auto;
-  background-image: repeating-linear-gradient(-45deg, #9590A8, #fef9f8 2.25px, 20rem, transparent 1px, transparent 6px);
-}
-
-.profile {
-  float: left;
-}
-
-.profileImg {
-  margin-top: 10rem;
-  margin-right: 20rem;
-  float: right;
-  max-width: 17rem;
-  max-height: 20rem;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 5px 10px #2B4570;
-}
-
-.aboutMePar {
-  max-height: 25rem;
-  max-width: 10rem;
-  min-width: 22rem;
-  margin-left: 5rem;
-  text-align: left;
-  border-radius: 5px;
-  background-color: #fef9f8;
-  border: #2B4570 double 6px;
-  padding: 6px;
-  font-family: "Noto Sansa KR", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  color: #2B4570;
-}
-
-.social {
-  text-align: center;
-  margin-top: 10rem;
-}
-.social .iconsList {
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  margin: 15px;
-}
-.social .ghIcon,
-.social .liIcon {
-  font-size: 30px;
-}
-.social .ghIcon {
-  color: black;
-  background-color: white;
-}
-.social .ghIcon :hover {
-  transform: scale(1.2);
-}
-.social .liIcon {
-  color: #0e76a8;
-}
-
-.contactBtns {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  float: left;
-}
-
-.contactBtnHome {
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: #fef9f8;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  width: 72%;
-  margin: auto;
-}
-
-.linkedBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: #0e76a8;
-  color: #0e76a8;
-  font-weight: 700;
-}
-
-.linkedBtn:hover {
-  background-color: #0e76a8;
-  color: white;
-}
-
-.liIcon,
-.ghIcon,
-.pdfIcon {
-  font-size: 17px;
-  margin-right: 1px;
-}
-
-.gitBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: black;
-  color: black;
-  font-weight: 700;
-}
-
-.gitBtn:hover {
-  background-color: black;
-  color: white;
-}
-
-.resumeBtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left;
-  border: solid 2px;
-  background: transparent;
-  width: 6rem;
-  height: 2rem;
-  border-radius: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s;
-  margin: 1rem;
-  font-size: 15px;
-  border-color: #1FA463;
-  color: #1FA463;
-  font-weight: 700;
-}
-
-.resumeBtn:hover {
-  background-color: #1FA463;
-  color: white;
-}
 
 .projectsTitle {
   text-align: center;
@@ -280,6 +13,7 @@
   width: 100%;
   display: flow-root;
 }
+
 .projectSection .projectCard {
   width: 30%;
   margin: 13px auto;
@@ -290,15 +24,18 @@
   border-radius: 5px;
   background-color: #fef9f8;
 }
+
 .projectSection .projectCard .projectTitle {
   text-align: center;
   margin: 0;
   color: #2B4570;
 }
+
 .projectSection .projectCard .projectImg {
   width: 100%;
   max-height: 50%;
 }
+
 .projectSection .projectCard .projectDesc {
   margin-top: -4px;
   margin-bottom: -2px;
@@ -308,6 +45,7 @@
   font-weight: 700;
   color: #2B4570;
 }
+
 .projectSection .projectLinks {
   display: flex;
   justify-content: center;
@@ -324,21 +62,25 @@
   font-size: 15px;
   text-decoration: none;
 }
+
 .projectSection .rep {
   border-color: black;
   color: black;
   font-weight: 700;
 }
+
 .projectSection .rep:hover {
   background-color: black;
   color: white;
 }
+
 .projectSection .app {
   border-color: #2B4570;
   color: #2B4570;
   font-weight: 700;
 }
+
 .projectSection .app:hover {
   background-color: #2B4570;
   color: white;
-}/*# sourceMappingURL=ProjectCard.css.map */
+}
