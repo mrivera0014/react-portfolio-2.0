@@ -3,26 +3,7 @@ import './Contact.css'
 
 function Contact() {
 
-    const form = document.getElementById('contactForm')
 
-    //when event triggered create object called mail based on input name attributes
-    const formEvent = form.addEventListener('submit', (event) => {
-        event.preventDefault();
-
-        let mail = new FormData(form)
-
-        //calling function with mail as parameter
-        submitEmail(mail)
-    })
-
-    const submitEmail = mail => {
-        fetch('https://mrivera0014.github.io/react-portfolio-2.0/send', {
-            method: 'post',
-            body: mail,
-        }).then((response) => {
-            return response.json()
-        });
-    };
 
     return (
         <div className='contactBody' id='contact'>
