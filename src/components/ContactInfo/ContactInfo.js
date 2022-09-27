@@ -1,12 +1,13 @@
 import React from "react";
 import * as FaIcons from 'react-icons/fa'
-
+import Form from '../Form/Form'
 import './ContactInfo.css'
 
 function ContactInfo() {
     return (
         <div className="body">
             <h1 className="projectsTitle"> Contact Me</h1>
+            <Form />
             <section className="contactBtnHome">
                 <form className="contactBtns" action="https://www.linkedin.com/in/marblerivera/" method="get" target="_blank">
                     <button className="linkedBtn" type="submit"><FaIcons.FaLinkedin className='liIcon' />LinkedIn</button>

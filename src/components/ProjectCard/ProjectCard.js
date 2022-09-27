@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import project from './ProjectList'
 import './ProjectCard.css'
 import * as FaIcons from 'react-icons/fa'
 // import * as FiIcons from 'react-icons/fi'
 
 function ProjectCard() {
-    const [projectDesc, setProjectDesc] = useState(false)
-    const showDesc = () => setProjectDesc(!projectDesc)
+    // const [projectDesc, setProjectDesc] = useState(false)
+    // const showDesc = () => setProjectDesc(!projectDesc)
     return (
         <div className='body' id='projects'>
             <h1 className='projectsTitle'>Projects</h1>
