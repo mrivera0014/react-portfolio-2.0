@@ -5,7 +5,6 @@ import ContactInfo from '../../components/ContactInfo/ContactInfo'
 function Contact() {
     return (
         <div id='contact'>
-            <Form />
             <ContactInfo />
         </div>
     )

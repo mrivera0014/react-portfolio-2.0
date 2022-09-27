@@ -1,14 +1,13 @@
 import React from 'react'
+import { useState } from 'react'
 import './Contact.css'
 
 function Contact() {
 
-
-
     return (
         <div className='contactBody' id='contact'>
-            <h1 className='contactTitle'>Contact Me</h1>
-            <form id='contactForm' method='POST' action='send' encType='multipart/form-data'>
+            <form id='contactForm' method='POST' action='https://formsubmit.co/mrivera0014@gmail.com' encType='multipart/form-data'>
+                <input type="hidden" name="_captcha" value="false"></input>
                 <div className="nameSection">
                     <p className="formText">Name:</p>
                     <input type="text" className="userInput" name='name' required />
