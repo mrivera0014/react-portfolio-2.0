@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 import './Contact.css'
 
 function Contact() {
@@ -16,6 +16,7 @@ function Contact() {
                     <p className="formText">Email:</p>
                     <input type="email" className="userInput" name='email' required />
                 </div>
+                <input type="hidden" name="_next" value="https://mrivera0014.github.io/react-portfolio-2.0/"></input>
                 <div className="messageSection">
                     <p className="formText">Message:</p>
                     <textarea className="userInput" name='message' required></textarea>
